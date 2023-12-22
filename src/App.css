@@ -1,0 +1,71 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: #0e0b0b; /* White text for better contrast */
+  background-image: linear-gradient(135deg, #8b008b, white); /* Rich gradient with blues and purples */
+  font-family: 'Montserrat', sans-serif; /* Modern and sleek font */
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: black;
+}
+
+@media screen and (min-width: 600px) {
+  .auth-form-container {
+    padding: 5rem;
+    border: 2px solid #5c3c92; /* Accent border for a pop of color */
+    border-radius: 15px;
+    margin: 0.5rem;
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.5rem 0;
+  color: #8b008b; /* White text for labels */
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 2px solid #8f70a7; /* Accent border for input fields */
+  border-radius: 10px;
+  background-color: #ffffff; /* White background for inputs */
+  color: #8b008b; /* Dark blue text for inputs */
+}
+
+button {
+  border: 2px solid #5c3c92; /* Accent border for buttons */
+  background-color: #ffffff; /* White background for buttons */
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: #5c3c92; /* Accent color for button text */
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5c3c92; /* Accent background on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+.link-btn {
+  background-color: #ffffff;
+  color: #0e0b0b; /* White color for links */
+  text-decoration: underline;
+}
+link:hover{
+  background-color: #5c3c92; /* Accent background on hover */
+  color: #ffffff; /* White text on hover */
+}
